@@ -1,18 +1,29 @@
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
 .container{
     display: flex;
     flex-wrap: wrap;
     width: 600px;
     height: 600px;
+    border: 1px solid black;
     
 
 }
 
 .square{
-    width:calc(100%/17);
     aspect-ratio: 1/1;
-    border: 1px solid black;
 }
 
 .hover {
     background-color:pink;
+    opacity: 0.20;
+}
+
+
+button {
+    margin: 20px;
 }
